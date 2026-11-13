@@ -211,42 +211,7 @@ Before any real-world research, an organization would need lawful data access, e
 
 See [`docs/model_card.md`](docs/model_card.md).
 
-## 12. Suggested screenshots for GitHub
-
-1. Dataset preview in a notebook or terminal.
-2. Rating distribution chart.
-3. Feature correlation chart.
-4. Model comparison metrics.
-5. Confusion matrix.
-6. Streamlit dashboard with department filter.
-7. Hypothetical prediction and probability chart.
-8. GitHub repository overview.
-
-
-
-## 13. Future improvements
-
-- Evaluate on a genuinely public, documented dataset where licensing and intended use permit.
-- Add temporal holdout evaluation when multiple periods are available.
-- Add probability calibration and permutation importance / SHAP with careful interpretation.
-- Add subgroup error analysis using appropriately governed audit data.
-- Add SQLite/PostgreSQL for a simulated data layer.
-- Add API serving and automated tests/CI.
-- Extend the analytics to aggregate training needs or attrition research, with separate targets and safeguards.
-
-## 14. Interview talking point
-
-"I developed an end-to-end Employee Performance Prediction and Analytics system using Python and Machine Learning. The project involved synthetic HR data analysis, preprocessing using Scikit-learn pipelines, and comparison of Logistic Regression and Random Forest classifiers.
-
-I evaluated the models using accuracy, precision, recall, macro F1-score, and confusion matrices. I selected Random Forest based on macro F1-score and integrated the saved ML pipeline into an interactive Streamlit dashboard.
-
-The dashboard includes workforce analytics, model insights, a prediction lab, and a dataset explorer. I also addressed target leakage, model interpretability, and responsible AI considerations."
-
-## 15. License and data
-
-The code may be shared for educational use. The generated dataset is synthetic and can be recreated using `python main.py`. Do not upload real employee data or personal information.
-
-## 📸 Project Screenshots
+## 12 Project Screenshots
 
 ### 1. Dashboard Overview
 ![Dashboard Overview](screenshots/01_dashboard_overview.png)
@@ -277,4 +242,27 @@ The code may be shared for educational use. The generated dataset is synthetic a
 
 ### 10. Alternative Prediction Scenario
 ![Alternative Prediction Scenario](screenshots/10_prediction_scenario.png)
+
+
+## 13. Future improvements
+
+- Evaluate on a genuinely public, documented dataset where licensing and intended use permit.
+- Add temporal holdout evaluation when multiple periods are available.
+- Add probability calibration and permutation importance / SHAP with careful interpretation.
+- Add subgroup error analysis using appropriately governed audit data.
+- Add SQLite/PostgreSQL for a simulated data layer.
+- Add API serving and automated tests/CI.
+- Extend the analytics to aggregate training needs or attrition research, with separate targets and safeguards.
+
+## 14. Interview talking point
+
+"I developed an end-to-end Employee Performance Prediction and Analytics system using Python and Machine Learning. The project involved synthetic HR data analysis, preprocessing using Scikit-learn pipelines, and comparison of Logistic Regression and Random Forest classifiers.
+
+I evaluated the models using accuracy, precision, recall, macro F1-score, and confusion matrices. I selected Random Forest based on macro F1-score and integrated the saved ML pipeline into an interactive Streamlit dashboard.
+
+The dashboard includes workforce analytics, model insights, a prediction lab, and a dataset explorer. I also addressed target leakage, model interpretability, and responsible AI considerations."
+
+## 15. License and data
+
+The code may be shared for educational use. The generated dataset is synthetic and can be recreated using `python main.py`. Do not upload real employee data or personal information.
 
