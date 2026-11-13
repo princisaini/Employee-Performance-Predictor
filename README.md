@@ -164,14 +164,44 @@ Generated artifacts:
 
 ## 10. Dashboard
 
-The Streamlit dashboard provides:
-- Department filter
-- Synthetic dataset KPIs
-- Rating distribution
-- Department training summary
-- Model comparison metrics
-- Hypothetical input form and class probabilities
-- Sample synthetic records
+The interactive Streamlit dashboard provides four main modules:
+
+### 1. Overview
+- Key workforce analytics KPIs
+- Performance rating distribution
+- Department-wise training analysis
+- Performance-related visualisations
+
+### 2. Model Insights
+- Logistic Regression and Random Forest comparison
+- Accuracy and macro evaluation metrics
+- Confusion matrix
+- Permutation feature importance
+- Class-wise classification report
+
+### 3. Prediction Lab
+Generate hypothetical performance predictions using 11 input features:
+
+- Department
+- Role
+- Tenure
+- Prior projects completed
+- Workload hours per week
+- Attendance rate
+- Training hours
+- Skill assessment
+- Manager feedback score
+- Engagement score
+- Overtime hours
+
+The output includes a predicted performance category (Low, Medium, or High) and corresponding class probabilities.
+
+### 4. Dataset Explorer
+- Explore synthetic employee records
+- Filter records by department
+- Inspect dataset columns and data types
+- Review missing values
+- Download filtered records
 
 ## 11. Responsible AI and limitations
 
@@ -192,7 +222,7 @@ See [`docs/model_card.md`](docs/model_card.md).
 7. Hypothetical prediction and probability chart.
 8. GitHub repository overview.
 
-Only publish screenshots from an actual successful run. Do not invent or manually alter metric values.
+
 
 ## 13. Future improvements
 
@@ -206,7 +236,11 @@ Only publish screenshots from an actual successful run. Do not invent or manuall
 
 ## 14. Interview talking point
 
-"I built an end-to-end people-analytics demonstration using synthetic HR-style data. I generated prior-period work indicators and a simulated future rating, built a preprocessing and classification pipeline with Scikit-learn, compared Logistic Regression and Random Forest using macro-F1 and class-level metrics, and deployed an interactive Streamlit dashboard. I also documented target leakage prevention, synthetic-data limitations, and responsible-use safeguards."
+"I developed an end-to-end Employee Performance Prediction and Analytics system using Python and Machine Learning. The project involved synthetic HR data analysis, preprocessing using Scikit-learn pipelines, and comparison of Logistic Regression and Random Forest classifiers.
+
+I evaluated the models using accuracy, precision, recall, macro F1-score, and confusion matrices. I selected Random Forest based on macro F1-score and integrated the saved ML pipeline into an interactive Streamlit dashboard.
+
+The dashboard includes workforce analytics, model insights, a prediction lab, and a dataset explorer. I also addressed target leakage, model interpretability, and responsible AI considerations."
 
 ## 15. License and data
 
