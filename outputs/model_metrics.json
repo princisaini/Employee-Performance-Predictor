@@ -1,0 +1,143 @@
+{
+  "selected_model": "Random Forest",
+  "selection_metric": "macro_f1",
+  "test_rows": 500,
+  "class_distribution": {
+    "Medium": 0.6536,
+    "Low": 0.2016,
+    "High": 0.1448
+  },
+  "top_permutation_features": [
+    {
+      "feature": "manager_feedback_score",
+      "importance_mean": 0.06102101622508784,
+      "importance_std": 0.018357499786008848
+    },
+    {
+      "feature": "skill_assessment",
+      "importance_mean": 0.05790648600878627,
+      "importance_std": 0.02737527563640108
+    },
+    {
+      "feature": "prior_projects_completed",
+      "importance_mean": 0.05329833609857966,
+      "importance_std": 0.024029217618505603
+    },
+    {
+      "feature": "engagement_score",
+      "importance_mean": 0.04672164475263866,
+      "importance_std": 0.013833370935544232
+    },
+    {
+      "feature": "training_hours",
+      "importance_mean": 0.02149484054747657,
+      "importance_std": 0.012000967911418216
+    },
+    {
+      "feature": "workload_hours_week",
+      "importance_mean": 0.00888973582808017,
+      "importance_std": 0.012878446531401109
+    },
+    {
+      "feature": "overtime_hours",
+      "importance_mean": 0.00732287375800107,
+      "importance_std": 0.012816167210080552
+    },
+    {
+      "feature": "tenure_years",
+      "importance_mean": 0.005443317775105694,
+      "importance_std": 0.0213898545240089
+    },
+    {
+      "feature": "role",
+      "importance_mean": 0.005354583001674129,
+      "importance_std": 0.006492442248174048
+    },
+    {
+      "feature": "attendance_rate",
+      "importance_mean": 0.0005881453618825861,
+      "importance_std": 0.017053686375246412
+    }
+  ],
+  "models": {
+    "Logistic Regression": {
+      "accuracy": 0.55,
+      "macro_precision": 0.5352,
+      "macro_recall": 0.6477,
+      "macro_f1": 0.5409,
+      "classification_report": {
+        "High": {
+          "precision": 0.3819444444444444,
+          "recall": 0.7638888888888888,
+          "f1-score": 0.5092592592592593,
+          "support": 72.0
+        },
+        "Low": {
+          "precision": 0.43023255813953487,
+          "recall": 0.7326732673267327,
+          "f1-score": 0.5421245421245421,
+          "support": 101.0
+        },
+        "Medium": {
+          "precision": 0.7934782608695652,
+          "recall": 0.44648318042813456,
+          "f1-score": 0.5714285714285714,
+          "support": 327.0
+        },
+        "accuracy": 0.55,
+        "macro avg": {
+          "precision": 0.5352184211511815,
+          "recall": 0.647681778881252,
+          "f1-score": 0.5409374576041243,
+          "support": 500.0
+        },
+        "weighted avg": {
+          "precision": 0.6608417593528817,
+          "recall": 0.55,
+          "f1-score": 0.5565567765567765,
+          "support": 500.0
+        }
+      }
+    },
+    "Random Forest": {
+      "accuracy": 0.702,
+      "macro_precision": 0.6415,
+      "macro_recall": 0.5231,
+      "macro_f1": 0.5533,
+      "classification_report": {
+        "High": {
+          "precision": 0.5625,
+          "recall": 0.25,
+          "f1-score": 0.34615384615384615,
+          "support": 72.0
+        },
+        "Low": {
+          "precision": 0.6376811594202898,
+          "recall": 0.43564356435643564,
+          "f1-score": 0.5176470588235295,
+          "support": 101.0
+        },
+        "Medium": {
+          "precision": 0.7243107769423559,
+          "recall": 0.8837920489296636,
+          "f1-score": 0.7961432506887053,
+          "support": 327.0
+        },
+        "accuracy": 0.702,
+        "macro avg": {
+          "precision": 0.6414973121208819,
+          "recall": 0.5231452044286997,
+          "f1-score": 0.5533147185553603,
+          "support": 500.0
+        },
+        "weighted avg": {
+          "precision": 0.6835108423231994,
+          "recall": 0.702,
+          "f1-score": 0.67508854567892,
+          "support": 500.0
+        }
+      }
+    }
+  },
+  "important_note": "Synthetic-data demonstration only; metrics are not evidence of real-world HR validity."
+}
