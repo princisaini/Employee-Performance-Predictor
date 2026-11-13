@@ -245,3 +245,36 @@ The dashboard includes workforce analytics, model insights, a prediction lab, an
 ## 15. License and data
 
 The code may be shared for educational use. The generated dataset is synthetic and can be recreated using `python main.py`. Do not upload real employee data or personal information.
+
+## 📸 Project Screenshots
+
+### 1. Dashboard Overview
+![Dashboard Overview](screenshots/01_dashboard_overview.png)
+
+### 2. Workforce Analytics
+![Workforce Analytics](screenshots/02_workforce_analytics.png)
+
+### 3. Prediction Lab
+![Prediction Lab](screenshots/03_prediction_lab.png)
+
+### 4. Prediction Results
+![Prediction Results](screenshots/04_prediction_results.png)
+
+### 5. Model Evaluation
+![Model Evaluation](screenshots/05_model_evaluation.png)
+
+### 6. Model Diagnostics
+![Model Diagnostics](screenshots/06_model_diagnostics.png)
+
+### 7. Dataset Explorer
+![Dataset Explorer](screenshots/07_dataset_explorer.png)
+
+### 8. Data Quality Analysis
+![Data Quality](screenshots/08_data_quality.png)
+
+### 9. Dataset Excel Preview
+![Dataset Excel Preview](screenshots/09_dataset_excel_preview.png)
+
+### 10. Alternative Prediction Scenario
+![Alternative Prediction Scenario](screenshots/10_prediction_scenario.png)
+
